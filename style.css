@@ -57,7 +57,11 @@ footer{
     background-color: red;
 }
 
-/* Main content */
+/* Main content ( side-menu + content )*/
+
+.margin-general{
+    margin: 10px;
+}
 
 .side-menu{
     background-color: royalblue;
