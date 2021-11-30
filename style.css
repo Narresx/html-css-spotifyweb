@@ -66,6 +66,8 @@ footer{
 .side-menu{
     background-color: royalblue;
     width: 250px;
+    margin-top: -125px;
+    z-index: 1;
 
 }
 
