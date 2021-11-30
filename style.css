@@ -69,6 +69,19 @@ footer{
 
 }
 
+.side-menu figure{
+    margin-bottom: 10px;
+}
+
+.side-menu a,{
+    margin-top: 5px;
+    font-weight: 2.8em;
+}
+
+.menu-text{
+    margin-left: 5px;
+}
+
 .content{
     background-color: seagreen;
     width: 100%;
