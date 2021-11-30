@@ -108,6 +108,30 @@ footer{
     vertical-align: 50%;
 }
 
+.bottom-side-menu{
+    position: relative;
+}
+
+.bottom-side-menu figure{
+    position: absolute;
+    transform: translate(0, 100%);
+}
+
+.bottom-side-menu img{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#profile{
+    border-radius: 50%;
+    background-color: rgb(128,128,128);
+}
+
 .content{
     background-color: seagreen;
     width: 100%;
