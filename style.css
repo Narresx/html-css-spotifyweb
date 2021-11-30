@@ -73,14 +73,20 @@ footer{
     margin-bottom: 10px;
 }
 
-.side-menu i{
+.side-menu a{
+    display: block;
+    text-decoration: none;
+}
+
+.side-menu a img{
     margin-top: 5px;
-    font-weight: 1.5em;
+    width: 35px;
+    height: 35px;
 }
 
 .menu-text{
-    text-decoration: none;
     margin-left: 5px;
+    vertical-align: 50%;
 }
 
 .content{
