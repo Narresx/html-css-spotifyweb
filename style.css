@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Roboto','Monserrat', sans-serif;
+    color: white;
 }
 
 .d-flex{
@@ -19,22 +20,40 @@
     align-items: center;
 }
 
+main{
+    width: 100%;
+    height: calc(100vh - 250px);
+}
 /* Header/Footer settings*/
 
 header{
     position: fixed;
     top: 0;
     height: 125px;
-    width: 100%;
-    background-color: red;
+    width: 100vw;
+    background-color: rgb(8,11,18);
     flex-direction: row-reverse;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.button{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgb(8,11,18);
+
+}
+
+header a{
+    margin-right: 20px;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     height: 125px;
-    width: 100%;
+    width: 100vw;
     background-color: red;
 }
 
@@ -42,13 +61,11 @@ footer{
 
 .side-menu{
     background-color: royalblue;
-    height: calc(100vh - 250px);
-    width: 100vw;
+    width: 250px;
+
 }
 
 .content{
-    flex-grow: 1;
     background-color: seagreen;
-    height: calc(100vh - 250px);
-    width: 100vw;
+    width: 100%;
 }
