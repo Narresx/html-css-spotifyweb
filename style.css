@@ -51,8 +51,6 @@ header a{
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
     height: 125px;
     width: 100vw;
     background-color: red;
@@ -134,9 +132,30 @@ footer{
 
 }
 
+/* Main items & card*/
+
 .content{
-    background-color: seagreen;
+    background-color: rgb(20,25,34);
     width: 100%;
+    height: 100vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: -1;
+}
+
+.top-menu{
+    margin-top: 20px;
+}
+
+.top-menu a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+#rec-played{
+    margin-top: 50px;
+    font-size: 2em;
 }
 
 /* Footer */
