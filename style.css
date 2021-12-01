@@ -157,6 +157,9 @@ footer img{
     height: 60px;
 }
 
-footer span{
-    line-height: 60px;
+footer section figure a span{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
