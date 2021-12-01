@@ -138,3 +138,23 @@ footer{
     background-color: seagreen;
     width: 100%;
 }
+
+/* Footer */
+
+footer{
+    background-color: rgb(40,40,40);
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+}
+
+footer span{
+    line-height: 60px;
+}
