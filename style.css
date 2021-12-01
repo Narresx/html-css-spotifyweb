@@ -141,6 +141,7 @@ footer{
     overflow: auto;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 20px;
     z-index: -1;
 }
 
@@ -155,9 +156,23 @@ footer{
 
 #rec-played{
     margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 2em;
 }
 
+main .card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.card div{
+    margin-top: 15px;
+}
 /* Footer */
 
 footer{
@@ -232,6 +247,12 @@ footer div i{
     justify-content: center;
 }
 
+.s-b-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Items */
 .w-80-grow{
     width: 50%;
@@ -240,4 +261,8 @@ footer div i{
 
 .w-15{
     width: 15%;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
 }
