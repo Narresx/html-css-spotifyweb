@@ -42,7 +42,7 @@ header{
     border: 1px solid white;
     border-radius: 30px;
     padding: 10px 30px;
-    background-color: rgb(8,11,18,0.9);
+    background-color: rgb(8,11,18,0);
     color: white;
 }
 
@@ -152,6 +152,7 @@ footer a{
 }
 
 footer img{
+    margin-left: 15px;
     border-radius: 0;
     width: 60px;
     height: 60px;
@@ -169,24 +170,33 @@ footer img{
 
 footer div i{
     margin-left: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .progress-bar{
-    margin-top: 15px;
     background-color: rgb(88,88,88);
     height: 3px;
-    width: 300px;
-    line-height: 3px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .value{
     background-color: rgb(160,160,160);
     height: 3px;
-    width: 50px;
-    line-height: 3px;
+    width: 15%;
 }
 
+.player{
+    flex-grow: 1;
+}
+
+.text-container{
+    vertical-align: middle;
+    padding: 0 15px;
+    width: 100%;
+
+}
 /* Centered-Flex */
 
 .centered-column{
@@ -201,4 +211,14 @@ footer div i{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+/* Items */
+.w-80-grow{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.w-15{
+    width: 15%;
 }
