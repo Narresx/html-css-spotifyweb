@@ -182,6 +182,11 @@ main .card img{
     margin-bottom: 20px;
     font-size: 2em;
 }
+
+.b-radius{
+    border-radius: 50%;
+}
+
 /* Footer */
 
 footer{
