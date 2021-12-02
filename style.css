@@ -273,6 +273,7 @@ footer div i{
     justify-content: flex-start;
     flex-grow: 0;
     flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .row-flex{
@@ -305,6 +306,15 @@ footer div i{
 }
 
 /* Media query */
+
+
+@media screen and (max-width: 768px) {
+    
+    .card{
+        width: calc(100% / 4 - 60px);
+    }
+
+}
 
 @media screen and (max-width: 576px) {
 
