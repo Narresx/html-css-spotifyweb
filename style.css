@@ -12,6 +12,11 @@
     display: flex;
 }
 
+.card-img img{
+    width: 100%;
+    height: auto;
+}
+
 .wrapper{
     display: flex;
     width: 100%;
@@ -163,14 +168,10 @@ footer{
     font-size: 2em;
 }
 
-main .card img{
-    width: 200px;
-    height: 200px;
-}
-
 .card{
+    width: calc(100% / 6 - 40px);
+    height: 100%;
     margin: 10px 10px;
-    width: 200px;
 }
 
 .card div{
@@ -253,7 +254,9 @@ footer div i{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .centered-row{
@@ -261,13 +264,15 @@ footer div i{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 .s-b-row{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .row-flex{
@@ -285,6 +290,10 @@ footer div i{
 
 .w-15{
     width: 15%;
+}
+
+.flex-b-50{
+    flex-basis: 50%;
 }
 
 .f-wrap{
@@ -315,5 +324,7 @@ footer div i{
         width: 50px;
         height: 50px;
     }
+
+    
 }
 
