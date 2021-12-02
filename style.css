@@ -325,6 +325,8 @@ footer div i{
         height: 50px;
     }
 
-    
+    .card{
+        width: calc(100% / 2 - 30px);
+        height: 100%;
+    }
 }
-
